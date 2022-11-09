@@ -1,5 +1,6 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Game.Content.UI
 {
@@ -10,7 +11,7 @@ namespace Game.Content.UI
         public int priority;
 
         [Space]
-        public GameObject prefabReference;
+        public AssetReference prefabReference;
 
         [Space]
         public bool useFader;

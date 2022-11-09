@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: MainMenu
   priority: 0
-  prefabReference: {fileID: 148749304714938911, guid: b2b115471649d0b4a82bdba95062042e, type: 3}
+  prefabReference:
+    m_AssetGUID: b2b115471649d0b4a82bdba95062042e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   useFader: 1
   faderDuration: 0.65
   faderDelay: 0

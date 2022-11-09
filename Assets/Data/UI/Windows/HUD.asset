@@ -14,4 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: HUD
   priority: 0
-  prefabReference: {fileID: 3319044271891834845, guid: 63869f537cb7ed84fb70b8c7cb63ccbb, type: 3}
+  prefabReference:
+    m_AssetGUID: 63869f537cb7ed84fb70b8c7cb63ccbb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
+  useFader: 0
+  faderDuration: 0.5
+  faderDelay: 0

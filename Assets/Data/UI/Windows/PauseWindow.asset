@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: PauseWindow
   priority: 0
-  prefabReference: {fileID: 3638082612560348673, guid: 6d83002fab6414d499dd3caddf73ccab, type: 3}
+  prefabReference:
+    m_AssetGUID: 6d83002fab6414d499dd3caddf73ccab
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   useFader: 1
   faderDuration: 0.35
+  faderDelay: 0

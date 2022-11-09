@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Cysharp.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Game.UI
 {
@@ -15,6 +17,14 @@ namespace Game.UI
         {
             var prefab = Resources.Load<T>(prefabName);
             return Create(prefab, parent, prefix);
+        }
+
+        public T Create<T>(AssetReference reference, Transform parent = null, string prefix = "[UI]") where T : UIBaseLayout
+        {
+            var handle = reference.LoadAssetAsync<GameObject>();
+            var go = handle.WaitForCompletion();
+
+            return Create<T>(go, parent, prefix);
         }
 
         public T Create<T>(GameObject prefab, Transform parent = null, string prefix = "[UI]") where T : UIBaseLayout

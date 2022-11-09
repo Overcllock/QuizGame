@@ -14,6 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: EndGameWindow
   priority: 0
-  prefabReference: {fileID: 2994249401088532835, guid: 424058412148a6340aaa7dc84f7ab8b4, type: 3}
+  prefabReference:
+    m_AssetGUID: 424058412148a6340aaa7dc84f7ab8b4
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
   useFader: 1
   faderDuration: 0.35
+  faderDelay: 0
